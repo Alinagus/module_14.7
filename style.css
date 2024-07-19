@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+}
+div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+
+}
+input{
+    text-align: center;
+    width: -webkit-fill-available;
+}
+button{
+    background-color: #b5e916;
+    border: none;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    height: 30px;
+}
+button:hover{
+    background-color: #9cc813;
+    cursor: pointer;
+}
