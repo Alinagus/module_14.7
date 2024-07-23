@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    border: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(132, 146, 219);
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(37, 62, 184);
+    background-color: rgb(96, 114, 204);
+}
