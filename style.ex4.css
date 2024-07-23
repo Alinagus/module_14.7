@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+input,
+button{
+    border-radius: 7px;
+    height: 40px;
+    border: solid 2px #b4e916bf;
+    background-color: #b5e916;
+    text-align: center;
+    color: #4b2695;
+    width: 200px;
+}
+button:hover{
+    background-color: #a8d621;
+    cursor: pointer;
+}
